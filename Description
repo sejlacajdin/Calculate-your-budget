@@ -5,3 +5,9 @@ More about private and public data, encaptulation and separation of concerns.
 SETTING UP THE FIRST EVENT LISTENERS:
 How to set up event listeners for keypress events;
 How to use event object.
+
+READING INPUT DATA:
+How to read data from different HTML input types.
+
+CREATING AN INITIALIZATION FUNCTION:
+How and why to create an initialization function.
