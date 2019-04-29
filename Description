@@ -46,3 +46,7 @@ SETTING UP THE DELETE EVENT LISTENER USING EVENT DELEGATION:
 How to use event delegation in practice;
 How to use IDs in HTML to connect the UI with the data model;
 How to use the parentNode property for DOM traversing.
+
+DELETING AN ITEM FROM OUR BUDGET CONTROLLER:
+Another method to loop over an array: map;
+How to remove elements from an array using the splice method.
