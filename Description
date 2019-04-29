@@ -25,8 +25,19 @@ A technique for adding big chunks of HTML into the DOM;
 How to replace parts of strings;
 How to do DOM manipulation using the insertAdjacentHTML method.
 
-CLEAR INPUT FIELDS
+CLEAR INPUT FIELDS:
 How to clear HTML fields;
 How to use querySelectorAll;
 How to convert a list to an array;
 A better way to loop over an array then for loops: forEach.
+
+UPDATING THE BUDGET: CONTROLLER:
+How to convert field inputs to numbers;
+How to prevent false inputs.
+
+UPDATING THE BUDGET: BUDGET CONTROLLER:
+How to create simple, reusable functions with only one purpose;
+How to sum all elements of an array using the forEach method.
+
+UPDATING THE BUDGET: UI CONTROLLER:
+Practice DOM manipulation by updating the budget and total values.
