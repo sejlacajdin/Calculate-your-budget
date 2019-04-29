@@ -41,3 +41,8 @@ How to sum all elements of an array using the forEach method.
 
 UPDATING THE BUDGET: UI CONTROLLER:
 Practice DOM manipulation by updating the budget and total values.
+
+SETTING UP THE DELETE EVENT LISTENER USING EVENT DELEGATION:
+How to use event delegation in practice;
+How to use IDs in HTML to connect the UI with the data model;
+How to use the parentNode property for DOM traversing.
