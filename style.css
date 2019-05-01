@@ -1,0 +1,254 @@
+
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.right{
+    float: right;
+}
+.red{ color: #ff5049 !important; }
+.red-focus:focus { border: 1px solid #ff5049 !important; }
+
+/*TOP PART*/
+
+.top{
+    height: 40vh;
+    background-image:linear-gradient(rgba(0,0,0,0.35), rgba(0, 0, 0, 0.35)), url(background.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.top-budget{
+    position: absolute;
+    width: 350px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.top-budget_title{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.top-budget_value{
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.top-budget_income, .top-budget_expenses{
+    padding: 12px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.top-budget_income{
+    margin-bottom: 10px;
+    background-color: rgb(52, 167, 163);
+}
+
+.top-budget_expenses{
+    background-color: #d34944;
+}
+
+.top-budget_income-text, .top-budget_expenses-text{
+    float: left;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.top-budget_expenses-value, .top-budget_income-value{
+    letter-spacing: 1px;
+    float: left;
+}
+
+.top-budget_income-percentage, .top-budget_expenses-percentage{
+    float: left;
+    width: 34px;
+    font-size: 11.5px;
+    padding: 3px 0;
+    margin-left: 10px;
+}
+
+.top-budget_expenses-percentage{
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    border-radius: 3.5px;
+}
+
+/*BOTTOM*/
+
+/**FORM***/
+
+.bottom-add{
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+}
+
+.bottom-add_container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom-add_type{
+    width: 55px;
+    border: 1px solid #e7e7e7;
+    height: 44px;
+    font-size: 18px;
+    color: inherit;
+    background-color: #ffffff;
+    margin-right: 11px;
+    font-weight: 300;
+    transition: border 0.3s;
+    border-radius: 5px;
+}
+
+.bottom-add_description,.bottom-add_value{
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    transition: border 0.3s;
+}
+
+.bottom-add_description{ width: 400px;}
+.bottom-add_value{ width: 100px;}
+
+.bottom-add_btn{
+    font-size: 35px;
+    background: none;
+    border: none;
+    color:rgb(52, 167, 163);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2;
+    margin-left: 11px;
+}
+
+.bottom-add_btn:active{ transform: translateY(2px);}
+.bottom-add_btn:focus{ outline: none;}
+
+.bottom-add_type:focus, .bottom-add_description:focus,
+.bottom-add_value:focus{
+    outline: none;
+    border: 1px solid rgb(69, 145, 142);
+}
+
+/***LIST***/
+.bottom-container{
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.bottom-container_income{
+    float:left;
+    width: 475px;
+    margin-left: 50px;
+}
+
+.bottom-container_expenses{
+    float: left;
+    width: 475px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.bottom-container_income-title{ color: rgb(69, 145, 142);}
+.bottom-container_expenses-title{ color:#d34944; }
+
+.item{
+    padding: 13px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.item:first-child{ 
+    border-top: 1px solid #e7e7e7;
+}
+.item:nth-child(even){
+    background-color: #f7f7f7;
+}
+.item-description{
+    float:left;
+}
+.item-value{
+    float: left;
+    transition: transform 0.3s;
+}
+.item-percentage{
+    float:left;
+    margin-left: 20px;
+    transition: transform 0.3s;
+    font-size: 11px;
+    background-color: #ffdad9;
+    padding: 3px;
+    border-radius: 3px;
+    width: 32px;
+    text-align: center;
+}
+
+.bottom-container_income .item-value,.bottom-container_income .item-delete_btn{
+    color: #28b9b5;
+}
+.bottom-container_expenses .item-value, .bottom-container_expenses .item-percentage,
+.bottom-container_expenses .item-delete_btn{
+    color: #ff5049;
+}
+
+.item-delete{ float:left;}
+
+.item-delete_btn{
+font-size: 22px;
+background: none;
+border:none;
+cursor: pointer;
+display: inline-block;
+vertical-align: middle;
+line-height: 1;
+display: none;
+}
+
+.item-delete_btn:focus{ outline: none; }
+.item-delete_btn:active{ transform: translateY(2px); }
+
+.item:hover .item-delete_btn{ display: block; }
+.item:hover .item-value{ transform: translateX(-20px); }
+.item:hover .item-percentage{ transform: translateX(-20px); }
+
+
+.item-percentage{ box-shadow: 0 2px 6px 0 rgba(0,0,0,0.1);}
+.item-description{ font-weight: 900;}
