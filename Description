@@ -53,3 +53,18 @@ How to remove elements from an array using the splice method.
 
 DELETING AN ITEM FROM THE UI:
 More DOM manipulation: how to remove an element from the DOM.
+
+UPDATING THE PERCENTAGES: BUDGET CONTROLLER:
+How to make budget controller interact with the Expense prototype.
+
+UPDATING THE PERCENTAGES: UI CONTROLLER:
+How to create own forEach function but for nodeLists instead of arrays.
+
+FORMATTING BUDGET NUMBERS: STRING MANIPULATION:
+How to use different String method to manipulate strings.
+
+DISPLAYING THE CURRENT MONTH AND YEAR:
+How to get current date by using the Date object constructor.
+
+IMPROVING THE UX:
+How and when to use 'change' events.
