@@ -50,3 +50,6 @@ How to use the parentNode property for DOM traversing.
 DELETING AN ITEM FROM OUR BUDGET CONTROLLER:
 Another method to loop over an array: map;
 How to remove elements from an array using the splice method.
+
+DELETING AN ITEM FROM THE UI:
+More DOM manipulation: how to remove an element from the DOM.
